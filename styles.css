@@ -2,11 +2,37 @@ body {
   background: #393e46;
 }
 
-form {
-  margin-top: 50px;
+header {
+  position: relative;
+  color: #fff;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
 }
-
 h1,
 h2 {
   text-align: center;
+}
+
+.container {
+  max-width: 700px;
+}
+
+video {
+  margin-top: 25px;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+}
+.video-wrapper {
+  position: relative;
+  width: 676px;
+  height: 350px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
