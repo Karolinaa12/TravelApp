@@ -11,6 +11,18 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -68,7 +80,7 @@
               checked
               autocomplete="off"
             />
-            <label class="btn btn-outline-primary" for="flights">Flights</label>
+            <label class="btn btn-outline-dark" for="flights">Flights</label>
           </div>
           <div class="col-md-4">
             <input
@@ -77,7 +89,7 @@
               id="hotels"
               autocomplete="off"
             />
-            <label class="btn btn-outline-primary" for="hotels">Hotels</label>
+            <label class="btn btn-outline-dark" for="hotels">Hotels</label>
           </div>
           <div class="col-md-4">
             <input
@@ -86,15 +98,13 @@
               id="cars"
               autocomplete="off"
             />
-            <label class="btn btn-outline-primary" for="cars"
-              >Car rentals</label
-            >
+            <label class="btn btn-outline-dark" for="cars">Car rentals</label>
           </div>
         </div>
 
-        <div class="switches form-check form-switch mt-3">
+        <div class="switches form-check form-switch mt-3 mb-3">
           <input
-            class="form-check-input"
+            class="form-check-input switch"
             type="checkbox"
             role="switch"
             id="flightsSwitch"

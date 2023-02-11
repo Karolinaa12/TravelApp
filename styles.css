@@ -7,9 +7,17 @@ header {
   color: #fff;
   text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
 }
-h1,
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.2em;
+  font-size: 64px;
+  font-weight: 900;
+}
 h2 {
-  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  font-weight: 200;
 }
 
 .container {
@@ -35,4 +43,13 @@ video {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.btn {
+  width: 100%;
+}
+
+.switch:checked {
+  background-color: black;
+  border-color: black;
 }
