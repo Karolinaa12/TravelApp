@@ -1,5 +1,5 @@
 body {
-  background: #393e46;
+  background: #23252a;
 }
 
 header {
@@ -20,8 +20,9 @@ h2 {
   font-weight: 200;
 }
 
-.container {
-  max-width: 700px;
+form.form-control {
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
 }
 
 video {
@@ -34,6 +35,11 @@ video {
   left: 0;
   border-radius: 10px;
 }
+
+.container {
+  max-width: 700px;
+}
+
 .video-wrapper {
   position: relative;
   max-width: 676px;
