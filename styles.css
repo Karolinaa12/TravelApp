@@ -36,7 +36,7 @@ video {
 }
 .video-wrapper {
   position: relative;
-  width: 676px;
+  max-width: 676px;
   height: 350px;
   overflow: hidden;
   text-align: center;
